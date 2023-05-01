@@ -42,7 +42,7 @@ const Hero = ({
               <p className="text-black-500 mt-4 mb-6">
                 Simplify your research and sales cycle today with a new AI-powered platform.
               </p>
-              <ButtonPrimary>Get Started</ButtonPrimary>
+              <ButtonPrimary>Join the Waitlist</ButtonPrimary>
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
