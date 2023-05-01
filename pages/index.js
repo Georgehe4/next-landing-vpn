@@ -11,8 +11,8 @@ export default function Home() {
       <SeoHead title='Practice IP' />
       <Layout>
         <Hero />
-        {/*<Feature />*/}
-        <Pricing />
+        <Feature />
+        {/*<Pricing />*/}
       </Layout>
       
       <Analytics/>
