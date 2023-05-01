@@ -7,10 +7,10 @@ import SeoHead from "../components/SeoHead";
 export default function Home() {
   return (
     <>
-      <SeoHead title='LaslesVPN Landing Page' />
+      <SeoHead title='Practice IP' />
       <Layout>
         <Hero />
-        <Feature />
+        {/*<Feature />*/}
         <Pricing />
       </Layout>
     </>
