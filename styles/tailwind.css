@@ -6,6 +6,34 @@
 html {
   font-family: "Rubik", sans-serif;
 }
+form {
+  display: table;
+  min-width: 350px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+label {
+  display: table;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  color: #3b3b3b;
+}
+
+input {
+  display: table;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  margin-bottom: 2.5rem;
+}
+
+input:focus {
+  outline: none;
+  border-color: #0070f3;
+}
 body {
   @apply bg-white-500;
 }

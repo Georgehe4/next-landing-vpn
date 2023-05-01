@@ -4,6 +4,7 @@ import ButtonPrimary from "./misc/ButtonPrimary";
 import {motion} from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import Modal from "./misc/Modal";
 
 const Hero = ({
   listUser = [
@@ -42,7 +43,7 @@ const Hero = ({
               <p className="text-black-500 mt-4 mb-6">
                 Simplify your research and sales cycle today with a new AI-powered platform.
               </p>
-              <ButtonPrimary>Join the Waitlist</ButtonPrimary>
+              <Modal></Modal>
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
