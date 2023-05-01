@@ -27,7 +27,7 @@ const Header = () => {
             {/*<LogoVPN className="h-8 w-auto" />*/}
         </div>
 
-          {/*
+          
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
             <LinkScroll
               activeClass="active"
@@ -65,6 +65,7 @@ const Header = () => {
             >
               Feature
             </LinkScroll>
+            {/*
             <LinkScroll
               activeClass="active"
               to="pricing"
@@ -101,7 +102,9 @@ const Header = () => {
             >
               Testimonial
             </LinkScroll>
+            */}
           </ul>
+          {/*
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <Link href="/">
               <a className="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all">
