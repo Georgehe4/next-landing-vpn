@@ -75,22 +75,22 @@ export default function Modal() {
                 </div>
                 {/*body*/}
                 <div className="relative p-6 flex-auto">
-                    By submitting this form, your company will join our waitlist to get early access to Practice. <br/>
-                    When your company has been selected, we will reach out to set up a demo.
+                    Join the waitlist to get early access to Practice! <br/>
+                    When you have been selected, we will reach out to set up a demo.
                 <form onSubmit={handleSubmit}>
                     <label htmlFor="first">First Name</label>
-                    <input type="text" id="first" name="first" required />
+                    <input className="mb-0" type="text" id="first" name="first" required />
             
                     <label htmlFor="last">Last Name</label>
-                    <input type="text" id="last" name="last" required />
+                    <input className="mb-0" type="text" id="last" name="last" required />
 
 
                     <label htmlFor="email">Email</label>
-                    <input type="text" id="email" name="email" required />
+                    <input className="mb-0" type="text" id="email" name="email" required />
 
 
                     <label htmlFor="role">Role</label>
-                    <input type="text" id="role" name="role" required />
+                    <input className="mb-0" type="text" id="role" name="role" required />
             
                     <button 
                     className={
