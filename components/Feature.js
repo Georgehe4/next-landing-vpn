@@ -5,10 +5,10 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const features = [
-  "Natural language search.",
-  "Saved queries and alerts.",
-  "Automatic term signing.",
-  "Flexible commitments."
+  "Data practices to protect your IP from unauthorized redistribution.",
+  "Customize how your work is shown to the masses.",
+  "License your style and works for AI consumption.",
+  "Monetize your IP through new channels today.",
 ]
 
 const Feature = () => {
@@ -39,7 +39,7 @@ const Feature = () => {
             Get Your IP Into Practice Today
           </h3>
           <p className="my-2 text-black-500">
-            Skip over the hurdles of licensing, and get connected with decision makers now.
+            Monetize and manage in ways you never thought possible.
           </p>
           <ul className="text-black-500 self-start list-inside ml-8">
             {features.map((feature, index) => (
