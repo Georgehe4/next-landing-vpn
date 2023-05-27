@@ -49,7 +49,7 @@ export default function Modal() {
         type="button"
         onClick={() => setShowModal(true)}
       >
-        Join the Waitlist
+        Register
       </button>
       {showModal ? (
         <>
@@ -75,8 +75,8 @@ export default function Modal() {
                 </div>
                 {/*body*/}
                 <div className="relative p-6 flex-auto">
-                    Join the waitlist to get early access to Practice! <br/>
-                    When you have been selected, we will reach out to set up a demo.
+                    Join Practice! <br/>
+                    We will reach out to set up a demo as soon as possible.
                 <form onSubmit={handleSubmit}>
                     <label htmlFor="first">First Name</label>
                     <input className="mb-0" type="text" id="first" name="first" required />
