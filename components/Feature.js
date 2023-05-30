@@ -6,9 +6,9 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const features = [
   "Stop unauthorized redistribution.",
-  "Customize where and how your work is shown to the masses.",
-  "License your style and works for AI.",
+  "Know where your work is used.",
   "Monetize IP through new channels today.",
+  "License your style and data for AI.",
 ]
 
 const Feature = () => {
@@ -38,9 +38,6 @@ const Feature = () => {
           <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
             Get Your IP Into Practice Today
           </h3>
-          <p className="my-2 text-black-500">
-            Unparallelled Control
-          </p>
           <ul className="text-black-500 self-start list-inside ml-8">
             {features.map((feature, index) => (
               <motion.li
