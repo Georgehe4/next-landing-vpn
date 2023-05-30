@@ -38,10 +38,10 @@ const Hero = ({
             variants={scrollAnimation}>
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
               <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-                Revamp how you manage your intellectual property with <strong>Practice</strong>.
+                Revamp IP management with <strong>Practice</strong>.
               </h1>
               <p className="text-black-500 mt-4 mb-6">
-                Share your work with confidence. Integrate evolving technology trends like A.I. to monetize your intellectual property.
+                Integrate new technology to monetize your intellectual property.
               </p>
               <Modal></Modal>
             </div>
