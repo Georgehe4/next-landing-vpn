@@ -5,10 +5,9 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const features = [
-  "Stop unauthorized redistribution.",
-  "Know where your work is used.",
-  "Monetize IP through new channels today.",
-  "License your style and data for AI.",
+  "License your likeness for public.",
+  "Know where and how your work is used.",
+  "One place to manage all your IP.",
 ]
 
 const Feature = () => {
